@@ -15,7 +15,7 @@ const SideBar: React.FC = () => {
     <section id="sidebar">
       <section id="intro">
         <Link href="/" className="logo">
-          <Image src="/images/me.jpg" alt="Jérémie Beucler" width={200} height={200} priority />
+          <Image src="/images/me.jpg" alt="Jérémie Beucler" width={220} height={217} priority />
         </Link>
         <header>
           <h2>Jérémie Beucler</h2>
@@ -28,10 +28,8 @@ const SideBar: React.FC = () => {
       <section className="blurb">
         <h2>About</h2>
         <p>
-          Hello there, I&apos;m Jérémie. I&apos;m a PhD student in Cognitive Science at{' '}
-          <a href="https://www.lapsyde.com/home" target="_blank" rel="noreferrer">LaPsyDÉ</a>{' '}
-          (CNRS & Université Paris Cité), where I study the cognitive mechanisms behind reasoning and confidence. 
-          I also work as a freelance data scientist specializing in language models, behavioral modeling, and statistics.
+          Hello there, I&apos;m a French PhD student in Cognitive Science working at{' '}
+          <a href="https://www.lapsyde.com/home">LaPsyDÉ</a> (CNRS & Université Paris Cité).
         </p>
         <ul className="actions">
           <li>
