@@ -6,11 +6,11 @@ Hi there! I'm a PhD student in Cognitive Science at [LaPsyDÉ](https://www.lapsy
 
 ## Research Interests
 
-My research investigates the **cognitive mechanisms underlying human reasoning, with a particular focus on reasoning biases**. I'm especially interested in **how subjective evidence, confidence, and deliberation interact** during the reasoning process. 
+My research investigates the **cognitive mechanisms underlying human reasoning, with a particular focus on reasoning biases**. I'm especially interested in **how subjective evidence, confidence, and deliberation interact** during the reasoning process. For instance: if someone is strongly biased, how does that affect their sense of confidence when confronted with contradictory evidence? And how does this confidence, in turn, influence the time and effort they're willing to invest in thinking further? 
 
-For instance: if someone is strongly biased, how does that affect their sense of confidence when confronted with contradictory evidence? And how does this confidence, in turn, influence the time and effort they're willing to invest in thinking further? 
+##
 
-To address these questions, I combine behavioral experiments, computational modeling, and the use of large language models (LLMs). 
+To address these questions, I combine **behavioral experiments, computational modeling, and  large language models**. 
 
 ## 
 
