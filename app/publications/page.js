@@ -28,10 +28,16 @@ const CustomLink = ({ href, children, ...props }) => {
     icon = <FontAwesomeIcon icon={faFilePdf} style={{ marginRight: '5px' }} />;
   }
 
-  // Add GitHub icon for GitHub/code links
+  // Add GitHub icon for GitHub / code links
   if (
-    typeof linkText === 'string' &&
-    (linkText.includes('Code') || linkText.includes('Data') || href?.includes('github.com'))
+    /* ---- 1  TEXT-BASED check ---- */
+    (typeof linkText === 'string' &&
+      (linkText.trim().includes('GitHub') || linkText.trim().includes('Package'))) || // e.g. “R Package”
+    /* ---- 2  URL-BASED check ---- */
+    (href &&
+      (href.includes('github.com') || // any repo on github.com
+        (href.includes('.github.io') && // any *.github.io page
+          !href.includes('/files/')))) // …except your own /files/ assets
   ) {
     icon = <FontAwesomeIcon icon={faGithub} style={{ marginRight: '5px' }} />;
   }

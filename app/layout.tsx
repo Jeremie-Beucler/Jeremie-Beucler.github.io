@@ -58,6 +58,10 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+
+  icons: {
+    icon: [], // explicitly set to empty
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

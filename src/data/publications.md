@@ -1,6 +1,6 @@
 ## Peer-Reviewed Papers
 
-1. **Beucler, J.**, Voudouri, A., & De Neys, W. (in press). Moses Illusions, Fast and Slow. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. ([<PDF /> Pre-print](https://jeremie-beucler.github.io/files/Beucler_2025.pdf) | PreReg, Code & Data](https://osf.io/bvy3u/))
+1. **Beucler, J.**, Voudouri, A., & De Neys, W. (in press). Moses Illusions, Fast and Slow. *Journal of Experimental Psychology: Learning, Memory, and Cognition*. ([<PDF /> Pre-print](https://jeremie-beucler.github.io/files/Beucler_2025.pdf) | [PreReg, Code & Data](https://osf.io/bvy3u/))
 
 ## Papers Under Review
 

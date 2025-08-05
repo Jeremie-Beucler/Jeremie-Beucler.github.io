@@ -23,6 +23,7 @@ const ContactPage = () => (
           You can email me at:{' '}
           <a href="mailto:jeremie.beucler@gmail.com">jeremie.beucler@gmail.com</a>
         </p>
+        <br />
         <p>I look forward to hearing from you!</p>
       </div>
 
