@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://jeremie-beucler.github.io",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+  "type": "git",
+  "url": "https://github.com/Jeremie-Beucler/jeremiebeucler.github.io.git"
   },
   "engines": {
     "node": ">=20.x"
