@@ -17,9 +17,15 @@ const ContactPage = () => (
           </h2>
         </div>
       </header>
+
       <div className="email-at">
-        <p> You can email me at: jeremie.beucler@gmail.com </p>
+        <p>
+          You can email me at:{' '}
+          <a href="mailto:jeremie.beucler@gmail.com">jeremie.beucler@gmail.com</a>
+        </p>
+        <p>I look forward to hearing from you!</p>
       </div>
+
       <ContactIcons />
     </article>
   </PageWrapper>

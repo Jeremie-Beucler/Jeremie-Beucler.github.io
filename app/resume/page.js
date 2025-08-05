@@ -9,7 +9,6 @@ import PageWrapper from '../components/PageWrapper';
 const sections = {
   CV: () => (
     <div className="cv-section">
-      <h3 style={{ textAlign: 'center' }}>CV</h3>
       <iframe
         title="Resume"
         src="https://jeremie-beucler.github.io/files/CV_RMD.pdf"
@@ -31,13 +30,6 @@ const ResumePage = () => (
           <h2>
             <Link href="/resume">Resume</Link>
           </h2>
-          <div className="link-container">
-            {Object.keys(sections).map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>
-            ))}
-          </div>
         </div>
       </header>
 
