@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import data from '../../data/stats/personal';
+import data from '../../data/stats/personal.js';
 import Table from './Table';
 
 const PersonalStats: React.FC = () => (
