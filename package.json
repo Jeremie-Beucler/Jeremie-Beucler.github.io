@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jeremie-Beucler/jeremiebeucler.github.io.git"
+    "url": "https://github.com/Jeremie-Beucler/Jeremie-Beucler.github.io"
   },
   "engines": {
     "node": ">=20.x"
