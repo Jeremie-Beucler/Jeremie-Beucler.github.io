@@ -60,7 +60,10 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: [], // explicitly set to empty
+    icon: [],
+    apple: [],
+    shortcut: [],
+    other: [],
   },
 };
 
