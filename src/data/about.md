@@ -18,4 +18,6 @@ To address these questions, I combine **behavioral experiments, computational mo
 
 I also work as a freelance cognitive and data scientist. My expertise spans cognitive psychology, behavioral experiments, data science and natural-language processing. 
 
+##
+
 Don't hesitate to [get in touch](/contact). I look forward to hearing from you! 
