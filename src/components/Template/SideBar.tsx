@@ -31,19 +31,6 @@ const SideBar: React.FC = () => {
           Hello there, I&apos;m a French PhD student in Cognitive Science working at{' '}
           <a href="https://www.lapsyde.com/home">LaPsyDÉ</a> (CNRS & Université Paris Cité).
         </p>
-        <ul className="actions">
-          <li>
-            {pathname && !pathname.includes('/resume') ? (
-              <Link href="/resume" className="button">
-                Learn More
-              </Link>
-            ) : (
-              <Link href="/about" className="button">
-                About Me
-              </Link>
-            )}
-          </li>
-        </ul>
       </section>
 
       <section id="footer">

@@ -7,24 +7,16 @@ export interface Route {
 const routes: Route[] = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Jérémie Beucler',
     path: '/',
-  },
-  {
-    label: 'About',
-    path: '/about',
   },
   {
     label: 'Resume',
     path: '/resume',
   },
   {
-    label: 'Projects',
-    path: '/projects',
-  },
-  {
-    label: 'Stats',
-    path: '/stats',
+    label: 'Publications',
+    path: '/publications',
   },
   {
     label: 'Contact',
