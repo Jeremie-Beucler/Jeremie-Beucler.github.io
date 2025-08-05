@@ -23,35 +23,27 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: {
-    default: "Michael D'Angelo",
-    template: "%s | Michael D'Angelo",
+    default: 'Jérémie Beucler',
+    template: '%s | Jérémie Beucler',
   },
-  description:
-    "Michael D'Angelo's personal website. Data scientist, machine learning engineer, and full-stack developer.",
-  keywords: [
-    "Michael D'Angelo",
-    'data scientist',
-    'machine learning',
-    'full-stack developer',
-    'engineer',
-    'portfolio',
-  ],
-  authors: [{ name: "Michael D'Angelo" }],
-  creator: "Michael D'Angelo",
-  metadataBase: new URL('https://mldangelo.com'),
+  description: "Jérémie Beucler's personal website. Cognitive scientist.",
+  keywords: ['Jérémie Beucler', 'cognitive science', 'reasoning'],
+  authors: [{ name: 'Jérémie Beucler' }],
+  creator: 'Jérémie Beucler',
+  metadataBase: new URL('https://github.com/Jeremie-Beucler/jeremiebeucler.github.io'),
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://mldangelo.com',
-    siteName: "Michael D'Angelo",
-    title: "Michael D'Angelo",
-    description: 'Data scientist, machine learning engineer, and full-stack developer.',
+    url: 'https://github.com/Jeremie-Beucler/jeremiebeucler.github.io',
+    siteName: 'Jérémie Beucler',
+    title: 'Jérémie Beucler',
+    description: 'Cognitive scientist',
     images: [
       {
         url: '/images/me.jpg',
         width: 1200,
         height: 630,
-        alt: "Michael D'Angelo",
+        alt: 'Jérémie Beucler',
       },
     ],
   },

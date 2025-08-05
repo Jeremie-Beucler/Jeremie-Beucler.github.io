@@ -4,8 +4,8 @@
   "homepage": "https://jeremie-beucler.github.io",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/Jeremie-Beucler/jeremiebeucler.github.io.git"
+    "type": "git",
+    "url": "https://github.com/Jeremie-Beucler/jeremiebeucler.github.io.git"
   },
   "engines": {
     "node": ">=20.x"
@@ -32,6 +32,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "0.2.2",
     "@next/third-parties": "^15.4.1",
     "dayjs": "^1.11.13",
@@ -39,7 +40,9 @@
     "next": "^15.4.2",
     "react": "^19.1.0",
     "react-burger-menu": "^3.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.4.2",
@@ -56,6 +59,8 @@
     "eslint": "^9.31.0",
     "eslint-config-next": "^15.4.2",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-node": "^0.3.9",
+    "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-prettier": "^5.5.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^30.0.4",

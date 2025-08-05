@@ -6,8 +6,7 @@ import Link from 'next/link';
 import PageWrapper from './components/PageWrapper';
 
 export const metadata: Metadata = {
-  description:
-    "Jérémie Beucler is a cognitive scientist working on reasoning and metacognition.",
+  description: 'Jérémie Beucler is a cognitive scientist working on reasoning and metacognition.',
 };
 
 export default function HomePage() {
@@ -34,7 +33,8 @@ export default function HomePage() {
         </p>
         <p>
           {' '}
-          Source available <a href="https://github.com/Jeremie-Beucler/jeremiebeucler.github.io">here</a>.
+          Source available{' '}
+          <a href="https://github.com/Jeremie-Beucler/jeremiebeucler.github.io">here</a>.
         </p>
       </article>
     </PageWrapper>
