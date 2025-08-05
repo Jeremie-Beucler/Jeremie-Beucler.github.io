@@ -10,6 +10,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 import getMarkdownContent from '../../lib/markdown.js';
+import PageWrapper from '../components/PageWrapper';
 
 // Custom link component to add icons
 const CustomLink = ({ href, children, ...props }) => {
@@ -50,24 +51,26 @@ const PublicationsPage = () => {
   const cleanedMarkdown = rawMarkdown.replace(/<PDF \/>/g, '').replace(/<GitHub \/>/g, '');
 
   return (
-    <article className="post markdown" id="publications">
-      <header>
-        <div className="title">
-          <h2>
-            <Link href="/publications">Publications</Link>
-          </h2>
-        </div>
-      </header>
-      <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
-        components={{
-          // Custom renderer for links to add icons
-          a: CustomLink,
-        }}
-      >
-        {cleanedMarkdown}
-      </ReactMarkdown>
-    </article>
+    <PageWrapper>
+      <article className="post markdown" id="publications">
+        <header>
+          <div className="title">
+            <h2>
+              <Link href="/publications">Publications</Link>
+            </h2>
+          </div>
+        </header>
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={{
+            // Custom renderer for links to add icons
+            a: CustomLink,
+          }}
+        >
+          {cleanedMarkdown}
+        </ReactMarkdown>
+      </article>
+    </PageWrapper>
   );
 };
 
