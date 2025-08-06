@@ -33,7 +33,6 @@ const SideBar: React.FC = () => {
       </section>
 
       <section className="blurb">
-        <h2>About</h2>
         <p>
           Hello there, I&apos;m a French PhD student in Cognitive Science working at{' '}
           <a href="https://www.lapsyde.com/home">LaPsyDÉ</a> (CNRS & Université Paris Cité).
