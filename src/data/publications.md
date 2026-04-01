@@ -8,9 +8,9 @@
 
 ## Working Papers
 
-1. **Beucler, J.**, Purcell, Z., Charles, L., De Neys, W., & Desender, K. (2026). Thinking in Vain: A Mechanistic Account of Biased Evidence Accumulation in Reasoning. ([<PDF /> ](https://osf.io/preprints/psyarxiv/ze2ku))
+1. **Beucler, J.**, Purcell, Z., Charles, L., De Neys, W., & Desender, K. (2026). Thinking in Vain: A Mechanistic Account of Biased Evidence Accumulation in Reasoning. ([OSF Pre-print](https://osf.io/preprints/psyarxiv/ze2ku))
 
-2. Purcell, Z., **Beucler, J.**, De Neys, W., & Desender, K. (2025). Computational Models of Dual-Process Reasoning. ([<PDF /> ](https://osf.io/download/7pygm/))
+2. Purcell, Z., **Beucler, J.**, De Neys, W., & Desender, K. (2025). Computational Models of Dual-Process Reasoning. ([OSF Pre-print](https://osf.io/preprints/psyarxiv/7pygm))
 
 ## Manuscripts in Preparation
 
